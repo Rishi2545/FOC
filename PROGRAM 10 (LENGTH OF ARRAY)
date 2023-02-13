@@ -1,0 +1,11 @@
+#include<stdio.h>                                                         r
+int main()
+{
+    char str[20];
+    int i;
+    clrscr();
+    printf("enter the string:");
+    gets (str);
+    printf("Thelength of the string:%d",strlen(str));
+    getch();
+}
